@@ -1,0 +1,92 @@
+:root{
+    --gray-dark: #343a40;
+    --gray: #6c757d;
+    --main: #494949;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 26px;
+}
+h3{
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+}
+p{
+    font-size: 22px;
+    text-align: justify;
+}
+main{
+    background: var(--main);
+    color: white;
+    height: 100vh;
+    text-align: center;
+    
+}
+.perfil{
+    width: 20rem;
+    
+}
+.info-principal{
+    padding-top: 12rem;
+    
+}
+div.social{
+    max-width: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+i{
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+.dos-columnas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+/*Sobre mi*/
+
+.sobre-mi{
+    margin: 3rem 8rem;
+}
+
+.img-sobre-mi{
+    margin: 0 auto;
+}
+.descripcion{
+    margin: auto;
+}
+
+/*Habilidades*/
+
+article.habilidades{
+    background: var(--gray);
+    text-align: center;
+    padding: 3rem 0;
+}
+.habilidades > i{
+    font-size: 5rem;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #33363a;
+}
+.habilidades > h2{
+    color: white;
+}
